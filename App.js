@@ -1,11 +1,18 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-
+import ScanPU from './component/ScanPU/ScanPU';
+import Pudetails from './component/ScanPU/Pudetails';
+import Dashboard from '../DemoMobileApp/component/Dashboard/Dashboard'
+import PendingTask from './component/PendingTask/PendingTask';
+import Signin from './component/SignIn/Signin';
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+    <View>
+      {/* <ScanPU/> */}
+      {/* <Pudetails/> */}
+      {/* <Dashboard/> */}
+      {/* <PendingTask/> */}
+      <Signin/>
     </View>
   );
 }
